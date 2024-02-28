@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.4.1",
+    "solc": "^0.8.24",
+    "web3": "^4.4.0"
+  }
+}
