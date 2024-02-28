@@ -34,6 +34,10 @@ col2.write('# TradeRES Data Dashboard')
 
 col3.metric("Clients", f"{num_of_plants}", delta=0, delta_color="inverse")
 col4.metric("Smart Meters", f"{get_the_num_of_meters()}", delta=0, delta_color="inverse")
+col5.image("./scripts/GitHub-logo.png")
+col5.write("[GitHub Repository](https://github.com/bityoga/TradeRES-BC-Portal/)", unsafe_allow_html=True)
+
+
 
 # Display the raw data
 # st.subheader('Raw Data from Ethereum Smart Contract')
